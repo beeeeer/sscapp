@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
- 
+ //********************men
     @IBOutlet weak var mensShoeSizeTextField: UITextField!
     @IBOutlet weak var mensConvertedShoeSizeLabel: UILabel!
+//*********************women
     @IBOutlet weak var womensShoeSizeTextField: UITextField!
     @IBOutlet weak var WomensConvertedSizeLabel: UILabel!
     
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+//mens Button
     @IBAction func convertButtonPressed(sender: AnyObject) {
         
 
@@ -38,7 +39,7 @@ class ViewController: UIViewController {
         mensConvertedShoeSizeLabel.textColor = UIColor.blueColor()
         
     }
-
+//womens button
     @IBAction func convertWomenShoeSizeButtonPressed(sender: UIButton) {
         
         
